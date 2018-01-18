@@ -1,0 +1,533 @@
+#header #logo,
+.nav-menu>li {
+    float: left
+}
+
+#mobile-nav ul li a,
+.nav-menu a,
+a:active,
+a:focus,
+a:hover {
+    text-decoration: none;
+    outline: 0
+}
+
+#header #logo h1,
+#welcome .actions a,
+#welcome h1,
+.section-title {
+    text-transform: uppercase
+}
+
+#footer .copyright,
+.section-description,
+.section-title {
+    text-align: center
+}
+
+body {
+    background: #fff;
+    color: #666;
+    font-family: "Open Sans", sans-serif
+}
+
+#header #logo h1,
+#welcome .actions a,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: Raleway, sans-serif
+}
+
+a {
+    color: #03C4EB;
+    transition: .5s
+}
+
+a:active,
+a:focus,
+a:hover {
+    color: #03c5ec
+}
+
+p {
+    padding: 0;
+    margin: 0 0 30px
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: 400;
+    margin: 0 0 20px;
+    padding: 0
+}
+
+#preloader {
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: 999;
+    width: 100%;
+    height: 100%;
+    overflow: visible;
+    background: url(../../img/preloader.svg) center center no-repeat #fff
+}
+
+.back-to-top,
+.back-to-top:focus {
+    background: rgba(0, 0, 0, .2);
+    color: #fff
+}
+
+.back-to-top {
+    position: fixed;
+    display: none;
+    padding: 6px 12px 9px;
+    font-size: 16px;
+    border-radius: 2px;
+    right: 15px;
+    bottom: 15px;
+    transition: background .5s
+}
+
+.back-to-top:focus {
+    outline: 0
+}
+
+.back-to-top:hover {
+    background: #03C4EB;
+    color: #fff
+}
+
+#welcome {
+    display: table;
+    width: 100%;
+    height: 100vh;
+    background: url(../../img/bg.jpg) top center fixed;
+    background-size: cover;
+    filter: brightness(175%)
+}
+
+#welcome .sports {
+	display: table-cell;
+	width: 100%;
+	height: 50vh;
+}
+#welcome .welcome-logo {
+    margin: 20px
+}
+
+#welcome .welcome-logo img {
+    max-width: 100%
+}
+
+#welcome .welcome-container {
+    background: rgba(0, 0, 0, .8);
+    display: table-cell;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    vertical-align: middle
+}
+
+#welcome h1 {
+    margin: 30px 0 10px;
+    font-weight: 700;
+    line-height: 48px;
+    color: #fff
+}
+
+#welcome h2 {
+    color: #999;
+    margin-bottom: 50px
+}
+
+@media (max-width:768px) {
+    .back-to-top {
+        bottom: 15px
+    }
+    #welcome h1 {
+        font-size: 28px;
+        line-height: 36px
+    }
+    #welcome h2 {
+        font-size: 24px;
+        line-height: 26px;
+        margin-bottom: 30px
+    }
+    #welcome h2 .rotating {
+        display: block
+    }
+}
+
+#welcome .actions a,
+#welcome .rotating>.animated {
+    display: inline-block
+}
+
+#welcome .actions a {
+    font-weight: 500;
+    font-size: 16px;
+    letter-spacing: 1px;
+    padding: 8px 20px;
+    border-radius: 2px;
+    transition: .5s;
+    margin: 10px
+}
+
+#welcome .btn-about-us {
+    background: 0 0;
+    border: 2px solid #fff;
+    color: #fff
+}
+
+#welcome .btn-about-us:hover {
+    background: #03C4EB;
+    border: 2px solid #03C4EB;
+    color: #fff
+}
+
+#welcome .btn-hoa-info {
+    border: 2px solid #fff;
+    color: #fff
+}
+
+#welcome .btn-hoa-info:hover {
+    background: #03C4EB;
+    border: 2px solid #03C4EB
+}
+
+#welcome .btn-contact-us {
+    border: 2px solid #fff;
+    color: #fff
+}
+
+#welcome .btn-contact-us:hover {
+    background: #03C4EB;
+    border: 2px solid #03C4EB
+}
+
+img.icon {
+    height: 2em
+}
+
+#header {
+    background: #111;
+    padding: 20px 0;
+    height: 100px
+}
+
+#header #logo h1 {
+    font-size: 36px;
+    margin: 0;
+    padding: 6px 0;
+    line-height: 1;
+    font-weight: 700;
+    letter-spacing: 3px
+}
+
+#header #logo h1 a,
+#header #logo h1 a:hover {
+    color: #fff
+}
+
+#header #logo img {
+    padding: 0;
+    margin: 0;
+    max-height: 50px
+}
+
+.is-sticky #header {
+    background: rgba(0, 0, 0, .85)
+}
+
+.nav-menu,
+.nav-menu * {
+    margin: 0;
+    padding: 0;
+    list-style: none
+}
+
+.nav-menu ul {
+    position: absolute;
+    display: none;
+    top: 100%;
+    left: 0;
+    z-index: 99
+}
+
+.nav-menu li {
+    position: relative;
+    white-space: nowrap
+}
+
+.nav-menu li.sfHover>ul,
+.nav-menu li:hover>ul {
+    display: block
+}
+
+.nav-menu ul li {
+    min-width: 180px;
+    background: #fff;
+    border-top: 1px solid #f4f4f4
+}
+
+.sf-arrows .sf-with-ul {
+    padding-right: 30px
+}
+
+.sf-arrows .sf-with-ul:after {
+    content: "\f107";
+    position: absolute;
+    right: 15px;
+    font-family: FontAwesome;
+    font-style: normal;
+    font-weight: 400
+}
+
+.sf-arrows ul .sf-with-ul:after {
+    content: "\f105"
+}
+
+#nav-menu-container {
+    float: right;
+    margin: 5px 0
+}
+
+@media (max-width:768px) {
+    #header {
+        height: 80px
+    }
+    #header #logo h1 {
+        font-size: 26px
+    }
+    #header #logo img {
+        max-height: 40px
+    }
+    #nav-menu-container {
+        display: none
+    }
+}
+
+.nav-menu a {
+    padding: 10px 15px;
+    display: inline-block;
+    color: #fff;
+    font-family: Raleway, sans-serif;
+    font-weight: 300;
+    font-size: 14px
+}
+
+.nav-menu .menu-active>a,
+.nav-menu a:hover,
+.nav-menu li:hover>a {
+    color: #03C4EB
+}
+
+.nav-menu ul {
+    margin: 4px 0 0 15px;
+    box-shadow: 0 0 1px 1px rgba(0, 0, 0, .08)
+}
+
+.nav-menu ul li:first-child {
+    border-top: 0
+}
+
+.nav-menu ul li:hover {
+    background: #f6f6f6
+}
+
+.nav-menu ul li a {
+    color: #333
+}
+
+.nav-menu ul ul {
+    top: 0;
+    left: 100%;
+    margin: 0
+}
+
+#mobile-nav-toggle {
+    position: fixed;
+    right: 0;
+    top: 0;
+    z-index: 999;
+    margin: 20px 20px 0 0;
+    border: 0;
+    background: 0 0;
+    font-size: 24px;
+    display: none;
+    transition: all .4s;
+    outline: 0
+}
+
+#mobile-nav ul li a:hover,
+#mobile-nav-toggle i {
+    color: #fff
+}
+
+@media (max-width:768px) {
+    #mobile-nav-toggle {
+        display: inline
+    }
+}
+
+#mobile-nav {
+    position: fixed;
+    top: 0;
+    padding-top: 18px;
+    bottom: 0;
+    z-index: 998;
+    background: rgba(0, 0, 0, .9);
+    left: -260px;
+    width: 260px;
+    overflow-y: auto;
+    transition: .4s
+}
+
+#mobile-nav ul {
+    padding: 0;
+    margin: 0;
+    list-style: none
+}
+
+#mobile-nav ul li {
+    position: relative
+}
+
+#mobile-nav ul li a {
+    color: #fff;
+    font-size: 16px;
+    overflow: hidden;
+    padding: 10px 22px 10px 15px;
+    position: relative;
+    width: 100%;
+    display: block
+}
+
+#mobile-nav ul li li {
+    padding-left: 30px
+}
+
+#mobile-nav ul .menu-has-children i {
+    position: absolute;
+    right: 0;
+    z-index: 99;
+    padding: 15px;
+    cursor: pointer;
+    color: #fff
+}
+
+#mobile-nav ul .menu-has-children i.fa-fa-chevron-up,
+#mobile-nav ul .menu-item-active {
+    color: #03C4EB
+}
+
+#mobile-body-overly {
+    width: 100%;
+    height: 100%;
+    z-index: 997;
+    top: 0;
+    left: 0;
+    position: fixed;
+    background: rgba(0, 0, 0, .6);
+    display: none
+}
+
+body.mobile-nav-active {
+    overflow: hidden
+}
+
+body.mobile-nav-active #mobile-nav {
+    left: 0
+}
+
+body.mobile-nav-active #mobile-nav-toggle {
+    color: #fff
+}
+
+.section-divider {
+    width: 80%;
+    height: 3px;
+    background: #5e1101;
+    margin: 20px auto
+}
+
+.section-title {
+    font-size: 32px;
+    color: #111;
+    font-weight: 700
+}
+
+.section-description {
+    margin-bottom: 40px
+}
+
+.section-title-divider {
+    width: 20%;
+    height: 3px;
+    background: #014e5e;
+    margin: 0 auto 20px
+}
+
+#aboutus {
+    background: rgba(255, 255, 255, .8);
+    padding: 80px 0
+}
+
+#aboutus .about-container {
+    background: url(../../img/signatpool.jpg) left top no-repeat;
+    background-size: 500px 400px
+}
+
+#aboutus .about-content {
+    background: #fff
+}
+
+#aboutus .about-title {
+    color: #333;
+    font-weight: 700;
+    font-size: 28px
+}
+
+#aboutus .about-text {
+    line-height: 26px
+}
+
+#aboutus .about-text:last-child {
+    margin-bottom: 0
+}
+
+#contact,
+#homesforsale {
+    background: rgba(255, 255, 255, .8);
+    padding: 80px 0
+}
+
+#contact .info {
+    color: #333
+}
+
+#contact .info i {
+    font-size: 32px;
+    color: #03C4EB;
+    float: left
+}
+
+#contact .info p {
+    padding: 0 0 10px 50px;
+    line-height: 24px
+}
+
+#footer {
+    background: #111;
+    padding: 30px 0;
+    color: #fff
+}
