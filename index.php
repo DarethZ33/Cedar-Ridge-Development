@@ -21,18 +21,26 @@
 <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,700,700i|Raleway:300,400,500,700,800" rel=stylesheet>
 <script src="lib/jquery/jquery.min.js"></script>
 <script src="lib/jquery/jquery-ui.min.js"></script>
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-112668021-1"></script>
+<script>
+    window.dataLayer = window.dataLayer || [];
+
+    function gtag() {
+        dataLayer.push(arguments);
+    }
+    gtag('js', new Date());
+    gtag('config', 'UA-112668021-1');
+</script>
+<script src="lib/resource-package2.min.js"></script>
 <link href="lib/bootstrap/css/bootstrap.min.css" rel=stylesheet>
 <link href="lib/font-awesome/css/font-awesome.min.css" rel=stylesheet>
 <link href="lib/animate-css/animate.min.css" rel=stylesheet>
-<link href="lib/tether/tether.min.css" rel=stylesheet>
-<link href="lib/css/style.css" rel=stylesheet>
+<link href="lib/css/style.min.css" rel=stylesheet>
 <div id=preloader></div>
 <section id=welcome>
     <div class=welcome-container>
         <div class="wow fadeIn">
-			<div class=welcome-sports>
-			<p>asfwf</p>
-			</div>
             <div class=welcome-logo><img alt="" src=""></div>
             <h1>Welcome to the Homeowners Association of Cedar Ridge</h1>
             <h2>Luxuries of the Northland such as <span class=rotating>parks, golf courses, shopping, recreation, resturants, and more</span>, without sacrificing nature!</h2>
@@ -46,34 +54,39 @@
             <h1><a href="#welcome">Cedar Ridge</a></h1></div>
         <nav id=nav-menu-container>
             <ul class=nav-menu>
-                <li class=menu-active><a href="#welcome">Home</a>
-                    <li><a href="#aboutus">About Us</a>
-                        <li><a href="#schools">Schools</a>
-                            <li><a href="#hoainfo" class=menu-has-children>HOA Information</a>
-                                <ul>
-                                    <li><a href="#boardinfo">Board Information</a>
-                                        <li><a href="https://drive.google.com/drive/folders/15aK6Ou8Kkcbi9re_9Ug8ayVD8FTXTIZ5?usp=sharing" target=_blank>Financials</a>
-                                            <li><a href="https://drive.google.com/drive/folders/1k-hjJh0QoLHPqHDdSQvpOCSrHbySG5Hq?usp=sharing" target=_blank>Meeting Minutes</a></ul>
-                                <li><a href="" class=menu-has-children>Governing Documents</a>
-                                    <ul>
-                                        <li><a href="https://drive.google.com/drive/folders/1Ld2HZbm537KT1zIGCyvzAfAWBjN1YWWo?usp=sharing" target=_blank>Amendments</a>
-                                            <li><a href="archives/governingdocs/HOA_ByLaws.pdf" target=_blank>By-Laws</a>
-                                                <li><a href="archives/governingdocs/HOA_Covenants.pdf" target=_blank>Covenants</a></ul>
-                                    <li><a href="" class=menu-has-children>New Members</a>
-                                        <ul>
-                                            <li><a href="" class=menu-has-children>Helpful Links</a>
-                                                <ul>
-                                                    <li><a href="http://www.emdmv.com/locations/parkville-mo/">Local DMV</a>
-                                                        <li><a href="https://tools.usps.com/go/POLocatorDetailsAction!input.action?&radius=20&locationType=po&locationTypeQ=po&locationID=1435012">Local USPS</a>
-                                                            <li><a href="https://www.kceb.org">Kansas City Election Board</a></ul>
-                                                <li><a href="" class=menu-has-children>Utilities</a>
-                                                    <ul>
-                                                        <li><a href="https://www.kcwaterservices.org/">Kansas City Missouri Water</a>
-                                                            <li><a href="http://www.kcpl.com/">Kansas City Power and Light</a>
-                                                                <li><a href="https://www.missourigasenergy.com/MGE/Home">Missouri Gas Energy</a>
-                                                                    <li><a href="http://kcmo.gov/neighborhoods/trash/">Trash Pickup</a></ul>
-                                        </ul>
-                                        <li><a href="#contact">Contact Us</a></ul>
+                <li class=menu-active><a href="#welcome">Home</a></li>
+                <li><a href="#aboutus">About Us</a></li>
+                <li><a href="#schools">Schools</a></li>
+                <li class=menu-has-children><a href="">HOA Information</a>
+                <ul>
+                    <li><a href="#boardinfo">Board Information</a></li>
+                    <li><a href="https://drive.google.com/drive/folders/15aK6Ou8Kkcbi9re_9Ug8ayVD8FTXTIZ5?usp=sharing" target=_blank>Financials</a></li>
+                    <li><a href="https://drive.google.com/drive/folders/1k-hjJh0QoLHPqHDdSQvpOCSrHbySG5Hq?usp=sharing" target=_blank>Meeting Minutes</a></li>
+                </ul>
+                <li class=menu-has-children><a href="">Governing Documents</a>
+                    <ul>
+                <li><a href="https://drive.google.com/drive/folders/1Ld2HZbm537KT1zIGCyvzAfAWBjN1YWWo?usp=sharing" target=_blank>Amendments</a></li>
+                <li><a href="archives/governingdocs/HOA_ByLaws.pdf" target=_blank>By-Laws</a></li>
+                <li><a href="archives/governingdocs/HOA_Covenants.pdf" target=_blank>Covenants</a></li>
+                </ul>
+                <li class=menu-has-children><a href="">New Members</a>
+                <ul>
+                    <li class=menu-has-children><a href="">Helpful Links</a>
+                    <ul>
+                        <li><a href="http://www.emdmv.com/locations/parkville-mo/">Local DMV</a></li>
+                        <li><a href="https://tools.usps.com/go/POLocatorDetailsAction!input.action?&radius=20&locationType=po&locationTypeQ=po&locationID=1435012">Local USPS</a></li>
+                        <li><a href="https://www.kceb.org">Kansas City Election Board</a></li>
+                    </ul>
+                    <li class=menu-has-children><a href="">Utilities</a>
+                    <ul>
+                        <li><a href="https://www.kcwaterservices.org/">Kansas City Missouri Water</a></li>
+                        <li><a href="http://www.kcpl.com/">Kansas City Power and Light</a></li>
+                        <li><a href="https://www.missourigasenergy.com/MGE/Home">Missouri Gas Energy</a></li>
+                        <li><a href="http://kcmo.gov/neighborhoods/trash/">Trash Pickup</a></li>
+                    </ul>
+                </ul>
+                <li><a href="#contact">Contact Us</a></li>
+            </ul>
         </nav>
     </div>
 </header>
@@ -262,4 +275,3 @@
     </div>
 </footer><a href="#" class=back-to-top><i class="fa fa-chevron-up"></i></a>
 <script src="lib/resource-package.min.js"></script>
-<script src="lib/resource-package2.min.js"></script>
