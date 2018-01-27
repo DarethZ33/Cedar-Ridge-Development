@@ -21,7 +21,6 @@
 <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,700,700i|Raleway:300,400,500,700,800" rel=stylesheet>
 <script src="lib/jquery/jquery.min.js"></script>
 <script src="lib/jquery/jquery-ui.min.js"></script>
-<!-- Global site tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-112668021-1"></script>
 <script>
     window.dataLayer = window.dataLayer || [];
@@ -58,34 +57,34 @@
                 <li><a href="#aboutus">About Us</a></li>
                 <li><a href="#schools">Schools</a></li>
                 <li class=menu-has-children><a href="">HOA Information</a>
-                <ul>
-                    <li><a href="#boardinfo">Board Information</a></li>
-                    <li><a href="https://drive.google.com/drive/folders/15aK6Ou8Kkcbi9re_9Ug8ayVD8FTXTIZ5?usp=sharing" target=_blank>Financials</a></li>
-                    <li><a href="https://drive.google.com/drive/folders/1k-hjJh0QoLHPqHDdSQvpOCSrHbySG5Hq?usp=sharing" target=_blank>Meeting Minutes</a></li>
-                </ul>
-                <li class=menu-has-children><a href="">Governing Documents</a>
                     <ul>
-                <li><a href="https://drive.google.com/drive/folders/1Ld2HZbm537KT1zIGCyvzAfAWBjN1YWWo?usp=sharing" target=_blank>Amendments</a></li>
-                <li><a href="archives/governingdocs/HOA_ByLaws.pdf" target=_blank>By-Laws</a></li>
-                <li><a href="archives/governingdocs/HOA_Covenants.pdf" target=_blank>Covenants</a></li>
-                </ul>
-                <li class=menu-has-children><a href="">New Members</a>
-                <ul>
-                    <li class=menu-has-children><a href="">Helpful Links</a>
-                    <ul>
-                        <li><a href="http://www.emdmv.com/locations/parkville-mo/">Local DMV</a></li>
-                        <li><a href="https://tools.usps.com/go/POLocatorDetailsAction!input.action?&radius=20&locationType=po&locationTypeQ=po&locationID=1435012">Local USPS</a></li>
-                        <li><a href="https://www.kceb.org">Kansas City Election Board</a></li>
+                        <li><a href="#boardinfo">Board Information</a></li>
+                        <li><a href="https://drive.google.com/drive/folders/15aK6Ou8Kkcbi9re_9Ug8ayVD8FTXTIZ5?usp=sharing" target=_blank>Financials</a></li>
+                        <li><a href="https://drive.google.com/drive/folders/1k-hjJh0QoLHPqHDdSQvpOCSrHbySG5Hq?usp=sharing" target=_blank>Meeting Minutes</a></li>
                     </ul>
-                    <li class=menu-has-children><a href="">Utilities</a>
-                    <ul>
-                        <li><a href="https://www.kcwaterservices.org/">Kansas City Missouri Water</a></li>
-                        <li><a href="http://www.kcpl.com/">Kansas City Power and Light</a></li>
-                        <li><a href="https://www.missourigasenergy.com/MGE/Home">Missouri Gas Energy</a></li>
-                        <li><a href="http://kcmo.gov/neighborhoods/trash/">Trash Pickup</a></li>
-                    </ul>
-                </ul>
-                <li><a href="#contact">Contact Us</a></li>
+                    <li class=menu-has-children><a href="">Governing Documents</a>
+                        <ul>
+                            <li><a href="https://drive.google.com/drive/folders/1Ld2HZbm537KT1zIGCyvzAfAWBjN1YWWo?usp=sharing" target=_blank>Amendments</a></li>
+                            <li><a href="archives/governingdocs/HOA_ByLaws.pdf" target=_blank>By-Laws</a></li>
+                            <li><a href="archives/governingdocs/HOA_Covenants.pdf" target=_blank>Covenants</a></li>
+                        </ul>
+                        <li class=menu-has-children><a href="">New Members</a>
+                            <ul>
+                                <li class=menu-has-children><a href="">Helpful Links</a>
+                                    <ul>
+                                        <li><a href="http://www.emdmv.com/locations/parkville-mo/">Local DMV</a></li>
+                                        <li><a href="https://tools.usps.com/go/POLocatorDetailsAction!input.action?&radius=20&locationType=po&locationTypeQ=po&locationID=1435012">Local USPS</a></li>
+                                        <li><a href="https://www.kceb.org">Kansas City Election Board</a></li>
+                                    </ul>
+                                    <li class=menu-has-children><a href="">Utilities</a>
+                                        <ul>
+                                            <li><a href="https://www.kcwaterservices.org/">Kansas City Missouri Water</a></li>
+                                            <li><a href="http://www.kcpl.com/">Kansas City Power and Light</a></li>
+                                            <li><a href="https://www.missourigasenergy.com/MGE/Home">Missouri Gas Energy</a></li>
+                                            <li><a href="http://kcmo.gov/neighborhoods/trash/">Trash Pickup</a></li>
+                                        </ul>
+                            </ul>
+                            <li><a href="#contact">Contact Us</a></li>
             </ul>
         </nav>
     </div>
@@ -131,8 +130,8 @@
                 <div class=card style=width:30rem><img alt=meeting src="img/meeting.jpg" height="225px" width="225px" class=card-img-top>
                     <div class=card-block>
                         <h4 class=card-title>HOA General Meeting</h4>
-                        <p class=card-text>HOA general business meeting, date to be determined by 2018 board.</p>
-                        <button class="btn btn-primary">Date TBD</button>
+                        <p class=card-text>The next HOA General Meeting is scheduled for Monday, February 5 at the Highlands Community Church, 7 - 8 pm in the Teen Center.</p>
+                        <button class="btn btn-primary">7-8PM, Monday, February 5 2018</button>
                     </div>
                 </div>
             </div>
@@ -177,7 +176,7 @@
                         <h4 class=card-title>Platte County High School</h4>
                         <p class=card-text>Those who have graduated from 8th grade will attend the recently rennovated Platte County High School. Students who attend PCHS have a host of after school activies to choose from ranging from Football to Golf, Choir to Band, Debate to Robotics.
                             <br>
-                            <br>In 2017, Two PCHS's students on the Robotics team made it to the first World Robotics Competition and finished in second place, The PCHS Football Team captured the title "District Champions", Five students in Band will perform with the All State Ensemble in January 2018, and 27 members of the Choir were selected as 2017 Northwest Missouri All-District Choir. There are far more accolades than can be mentioned here. The faculty at this school look to teach your children to be the best they can, and strive for nothing less.</p><a href="https://www.google.com/maps/place/1501+Branch+St,+Platte+City,+MO+64079/@39.3589236,-94.7734159,17z/data=!3m1!4b1!4m5!3m4!1s0x87c0664d72503d01:0xfe3170949a36458f!8m2!3d39.3589236!4d-94.7712272" class="btn btn-primary" target=_blank>View on Map</a></div>
+                            <br>In 2017, Two PCHS's students on the Robotics team made it to the first World Robotics Competition and finished in second place, The PCHS Football Team captured the title "District Champions", Five students in Band performed with the All State Ensemble in January 2018, and 27 members of the Choir were selected as 2017 Northwest Missouri All-District Choir. There are far more accolades than can be mentioned here. The faculty at this school look to teach your children to be the best they can, and strive for nothing less.</p><a href="https://www.google.com/maps/place/1501+Branch+St,+Platte+City,+MO+64079/@39.3589236,-94.7734159,17z/data=!3m1!4b1!4m5!3m4!1s0x87c0664d72503d01:0xfe3170949a36458f!8m2!3d39.3589236!4d-94.7712272" class="btn btn-primary" target=_blank>View on Map</a></div>
                 </div>
             </div>
         </div>
@@ -210,52 +209,56 @@
             </div>
         </div>
         <div class=row>
-            <div class=col-md-3>
+            <div class=col-md-4>
                 <div class=info>
                     <div><i class="fa fa-envelope"></i>
                         <p>Dustin Singleton
                             <br>President
-                            <br>president@kccedarridge.com</div>
+                            <br>president.hoa.cedar.ridge@gmail.com
+                            <br>(816) 895-2719</div>
                 </div>
             </div>
-            <div class=col-md-3>
+            <div class=col-md-4>
                 <div class=info>
                     <div><i class="fa fa-envelope"></i>
                         <p>Will Hunter
                             <br>Vice President
-                            <br>vicepresident@kccedarridge.com</div>
+                            <br>vice.president.hoa.cedar.ridge@gmail.com</div>
                 </div>
             </div>
-            <div class=col-md-3>
+            <div class=col-md-4>
                 <div class=info>
                     <div><i class="fa fa-envelope"></i>
                         <p>Darlene Humiston
                             <br>Treaurer
-                            <br>treasurer@kccedarridge.com</div>
+                            <br>treasurer.hoa.cedar.ridge@gmail.com
+                            <br>(816) 459-0431</div>
                 </div>
             </div>
-            <div class=col-md-3>
+        </div>
+        <div class="row">
+            <div class=col-md-4>
                 <div class=info>
                     <div><i class="fa fa-envelope"></i>
                         <p>Sabrina Rauer
                             <br>Secretary
-                            <br>secretary@kccedarridge.com</div>
+                            <br>treasurer.hoa.cedar.ridge@gmail.com</div>
                 </div>
             </div>
-            <div class="col-md-6 col-md-push-2">
+            <div class=col-md-4>
                 <div class=info>
                     <div><i class="fa fa-envelope"></i>
                         <p>Vicky Brooks
                             <br>Member at Large
-                            <br>memberatlarge@kccedarridge.com</div>
+                            <br>
+                    </div>
                 </div>
             </div>
-            <div class="col-md-6 col-md-push-1">
+            <div class=col-md-4>
                 <div class=info>
                     <div><i class="fa fa-envelope"></i>
                         <p>Paul Motske
-                            <br>Member at Large
-                            <br>memberatlarge@kccedarridge.com</div>
+                            <br>Member at Large</div>
                 </div>
             </div>
         </div>
@@ -267,6 +270,7 @@
             <div class=col-md-12>
                 <div class=copyright>
                     <p>HOA of Cedar Ridge
+                        <br> board.hoa.cedar.ridge@gmail.com
                         <br>PO Box 28831
                         <br>Kansas City, MO 64188-8831</p>This work is licensed under a <a href="https://creativecommons.org/licenses/by-nc-nd/4.0/">Creative Commons International License</a>.
                     <br><strong>Website designed and developed by <a href="https://www.linkedin.com/in/dalen-humiston-1b59809a/">Dalen H</a></strong></div>
