@@ -35,7 +35,7 @@
 <link href="lib/bootstrap/css/bootstrap.min.css" rel=stylesheet>
 <link href="lib/font-awesome/css/font-awesome.min.css" rel=stylesheet>
 <link href="lib/animate-css/animate.min.css" rel=stylesheet>
-<link href="lib/css/style.min.css" rel=stylesheet>
+<link href="lib/css/style.css" rel=stylesheet>
 <div id=preloader></div>
 <section id=welcome>
     <div class=welcome-container>
@@ -50,24 +50,32 @@
 <header id=header>
     <div class=container>
         <div class=pull-left id=logo>
-            <h1><a href="#welcome">Cedar Ridge</a></h1></div>
+            <h1><a href=#welcome>Cedar Ridge</a></h1></div>
         <nav id=nav-menu-container>
             <ul class=nav-menu>
-                <li class=menu-active><a href="#welcome">Home</a></li>
-                <li><a href="#aboutus">About Us</a></li>
-                <li><a href="#schools">Schools</a></li>
+                <li class=menu-active><a href=#welcome>Home</a></li>
+                <li><a href=#aboutus>About Us</a></li>
                 <li class=menu-has-children><a href="">HOA Information</a>
                     <ul>
-                        <li><a href="#boardinfo">Board Information</a></li>
+                        <li><a href=#boardinfo>Board Information</a></li>
+						<li><a href=#>Committee Information</a>
+							<ul>
+								<li><a href="https://drive.google.com/file/d/1C_NsS7Y3EY9U0EWo4SSxrBy3PqV_4aak/view?usp=sharing" target=_blank>Committee Descriptions</a></li>
+								<li><a href="https://drive.google.com/file/d/1CMca5lgP5WBhlU-FS1M2qyX7Y2BmtAhH/view?usp=sharing" target=_blank>Committee Sign-Up Form</a></li>
+								<li><a href="https://drive.google.com/file/d/1ZgqqSJ1UUEK-BWcHG2Q8leZZCAHCgqQK/view?usp=sharing" target=_blank>Improvement Request Form</a></li>
+							</ul>
+						</li>
                         <li><a href="https://drive.google.com/drive/folders/15aK6Ou8Kkcbi9re_9Ug8ayVD8FTXTIZ5?usp=sharing" target=_blank>Financials</a></li>
                         <li><a href="https://drive.google.com/drive/folders/1k-hjJh0QoLHPqHDdSQvpOCSrHbySG5Hq?usp=sharing" target=_blank>Meeting Minutes</a></li>
                     </ul>
                     <li class=menu-has-children><a href="">Governing Documents</a>
                         <ul>
                             <li><a href="https://drive.google.com/drive/folders/1Ld2HZbm537KT1zIGCyvzAfAWBjN1YWWo?usp=sharing" target=_blank>Amendments</a></li>
-                            <li><a href="archives/governingdocs/HOA_ByLaws.pdf" target=_blank>By-Laws</a></li>
-                            <li><a href="archives/governingdocs/HOA_Covenants.pdf" target=_blank>Covenants</a></li>
+                            <li><a href="https://drive.google.com/file/d/16RmnwnJHmDdTwf_ko5D5aTaBHO2OYNbg/view?usp=sharing" target=_blank>By-Laws</a></li>
+                            <li><a href="#" target=_blank>Covenants</a></li>
+							<li><a href="https://drive.google.com/file/d/1k-lWyYNVdwK2x9KdQzbO-Hezn1B5Wvqw/view?usp=sharing" target=_blank>Restrictions</a></li>
                         </ul>
+						<li><a href=#schools>Schools</a></li>
                         <li class=menu-has-children><a href="">New Members</a>
                             <ul>
                                 <li class=menu-has-children><a href="">Helpful Links</a>
@@ -84,7 +92,7 @@
                                             <li><a href="http://kcmo.gov/neighborhoods/trash/">Trash Pickup</a></li>
                                         </ul>
                             </ul>
-                            <li><a href="#contact">Contact Us</a></li>
+                            <li><a href=#contact>Contact Us</a></li>
             </ul>
         </nav>
     </div>
@@ -105,7 +113,12 @@
                 <p class=about-text>Cedar Ridge is a residential community of single-family owner-occupied homes. We are located in the Northland within the city limits of Kansas City in Clay County, Missouri. You can find us south of Highway 152 and west of Highway 169.
                     <p class=about-text>We are conveniently located minutes away from downtown Kansas City, Zona Rosa, or the Kansas City International Airport (MCI). Cedar Ridge offers the luxury of being near activities that a city can provide, such as schools, a community college, parks, golf courses, shopping, recreation, and restaurants, while enjoying nature such as might be seen living in the country.
                         <p class=about-text>When you combine all this, as well as enjoying a neighborhood pool in the summertime, it's no surprise many families choose Cedar Ridge to live and raise their family.</div>
-        </div>
+        </div><br>
+		<div class=row>
+			<div class="col-md-12 col-md-push-6">
+				<a href="https://drive.google.com/file/d/1C_NsS7Y3EY9U0EWo4SSxrBy3PqV_4aak/view?usp=sharing" target=_blank><button class="btn btn-primary">Click here to view our different committees!</button></a>
+			</div>
+		</div>
     </div>
     <div class=section-divider></div>
 </section>
