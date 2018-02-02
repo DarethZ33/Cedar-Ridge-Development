@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html >
+   <head >
+      <title ></title>
+      <meta content="text/html; charset=utf-8" http-equiv='Content-Type'>
+      <style type='text/css'>body,td{font-family:Arial;font-size :12px;}</style>
+      <meta name='GENERATOR' content='MSHTML 11.00.10570.1001'>
+   </head>
+   <body style='BACKGROUND-COLOR: transparent'>
+      <div >Greetings Cedar Ridge Homeowner,</div>
+      <div >&nbsp;</div>
+      <div >
+This is an automated reply to your recent Resident Information Form 
+submission to confirm that we have received your submission and will be 
+reviewing it as soon as we can.
+      </div>
+      <div >&nbsp;</div>
+      <div >
+If you are a new resident,&nbsp;welcome to the neighborhood and 
+congratulations on your new home! For your convenience, we have compiled a list 
+of links to local utilities and more that we feel could be useful for you.
+      </div>
+      <div >&nbsp;</div>
+      <div >Cable, Internet, and Phone:</div>
+      <div >
+AT&amp;T:          <a href='https://www.att.com/'>https://www.att.com/</a>
+      </div>
+      <div >
+DirectTV:          <a href='https://www.directv.com/'>https://www.directv.com/</a>
+      </div>
+      <div >
+Google Fiber:          <a href='https://fiber.google.com/about/'>https://fiber.google.com/about/</a>
+      </div>
+      <div >
+Spectrum:          <a href='https://www.spectrum.com/'>https://www.spectrum.com/</a>
+      </div>
+      <div >&nbsp;</div>
+      <div >Utilities:</div>
+      <div >
+KCWater:          <a href='https://www.kcwaterservices.org/'>https://www.kcwaterservices.org/</a>
+      </div>
+      <div >
+Kansas City Power and Light:          <a href='https://www.kcpl.com/'>https://www.kcpl.com/</a>
+      </div>
+      <div >
+Spire (previously known as Missouri Gas Energy):          <a href='https://www.spireenergy.com/welcome-mge-customers'>https://www.spireenergy.com/welcome-mge-customers</a>
+      </div>
+      <div >
+Trash Pickup:          <a href='http://kcmo.gov/neighborhoods/trash/'>http://kcmo.gov/neighborhoods/trash/</a>
+      </div>
+      <div >&nbsp;</div>
+      <div >Other Helpful Links:</div>
+      <div >
+Kansas City Election Board:          <a href='https://www.kceb.org/'>https://www.kceb.org/</a>
+      </div>
+      <div >
+Local DMV:          <a href='https://elledmv.com/elle-dmv-locations/parkville-mo-dmv/'>https://elledmv.com/elle-dmv-locations/parkville-mo-dmv/</a>
+      </div>
+      <div >
+Local Police Division:          <a href='http://kcmo.gov/police/north-patrol-division/#.WnPykqinHr4'>http://kcmo.gov/police/north-patrol-division/#.WnPykqinHr4</a>
+      </div>
+      <div >
+Local USPS:          <a href='https://tools.usps.com/go/POLocatorDetailsAction!input.action?&amp;radius=20&amp;locationType=po&amp;locationTypeQ=po&amp;locationID=1435012'>https://tools.usps.com/go/POLocatorDetailsAction!input.action?&amp;radius=20&amp;locationType=po&amp;locationTypeQ=po&amp;locationID=1435012</a>
+      </div>
+      <div >&nbsp;</div>
+      <div >
+You can also contact any of the board members using their contact 
+information at the bottom of the website with any questions you may have. We are 
+glad you chose our neighborhood, and hope you come to call it your home!
+      </div>
+      <div >&nbsp;</div>
+      <div >Sincerely,</div>
+      <div >Homeowners Association of Cedar Ridge</div>
+   </body>
+</html>

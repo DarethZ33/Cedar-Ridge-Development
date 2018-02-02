@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html >
+   <head >
+      <meta http-equiv='Content-Type' content='text/html; charset=utf-8'>
+      <meta name='viewport' content='width=device-width, initial-scale=1'>
+      <title >Form Page: Resident_Information_Form</title>
+      <meta name='generator' content='Simfatic Forms 5.0.5.448'>
+      <script src='scripts/jquery-1.7.2.min.js' type='text/javascript'></script>
+      <script src='scripts/jquery-ui-1.8.18.custom.min.js' type='text/javascript'></script>
+      <script src='scripts/globalize.js' type='text/javascript'></script>
+      <script src='scripts/jquery-ui-1.8.21.custom.date.min.js' type='text/javascript'></script>
+      <script src='scripts/moment.js' type='text/javascript'></script>
+      <script src='scripts/sfm_calendar.js' type='text/javascript'></script>
+      <script src='scripts/jquery.sim.number.js' type='text/javascript'></script>
+      <script src='scripts/jquery.sim.utils.js' type='text/javascript'></script>
+      <script src='scripts/sfm_validatorv7.js' type='text/javascript'></script>
+      <script src='scripts/jquery.sim.FormCalc.js' type='text/javascript'></script>
+      <link rel='stylesheet' type='text/css' href='style/jquery-ui-1.8.16.css'>
+      <link rel='stylesheet' type='text/css' href='style/Resident_Information_Form.css?r=%sfm_css_rand%'>
+   </head>
+   <body id='sfm_Resident_Information_Form_body'>
+      <form id='Resident_Information_Form' class='sfm_form' novalidate='novalidate' method='post' action='%sfm_self_script%' accept-charset='UTF-8'>
+         <div id='Resident_Information_Form_errorloc' class='error_strings' style='width:500px;text-align:left'>%sfm_error_display_loc%</div>
+         <div id='Resident_Information_Form_outer_div_p1' class='form_outer_div'>
+            <div style='position:relative' id='Resident_Information_Form_inner_div'>
+               <input type='hidden' name='sfm_form_submitted' value='yes'>
+               <input type='hidden' name='%_sfm_form_id_iput_var_%' value='%_sfm_form_id_iput_value_%'>
+               <input type='text' name='tcebe9436a68077ee7f26' id='tcebe9436a68077ee7f26'>
+               <div id='Image_container'>
+                  <img class='sfm_image_in_form' src='images/708ef177e274fdd34a3f6848dac50a16.png' width='497' height='76' alt>
+               </div>
+               <div id='box_element20'></div>
+               <div id='box_element'></div>
+               <div class='element_label sfm_element_container' id='EstablishedResidentUpdateInformation_container'><input type='checkbox' name='EstablishedResidentUpdateInformation' id='EstablishedResidentUpdateInformation' value='Established_Resident' %93a5fba11485c0ca964dfff23790fac6%><label for='EstablishedResidentUpdateInformation' class='element_label' id='EstablishedResidentUpdateInformation_label'>Established Resident Updating Information</label></div>
+               <div class='element_label sfm_element_container' id='NewResidentInformation_container'><input type='checkbox' name='NewResidentInformation' id='NewResidentInformation' value='New_Resident' %b55050ec966085ccbf9a36e1b1305dd1%><label for='NewResidentInformation' class='element_label' id='NewResidentInformation_label'>New Resident Information</label></div>
+               <div id='box_element2'></div>
+               <div id='label1_container'>
+                  <div id='label1'>Today's Date</div>
+               </div>
+               <div id='label_container'>
+                  <div id='label'>Move-in Date</div>
+               </div>
+               <div class='sfm_element_container sfm_date_container' id='MoveIn_container'>
+                  <input type='text' name='MoveIn' id='MoveIn' class='sfm_datepicker_input' value='%MoveIn%'>
+                  <input type='text' name='sfm_MoveIn_parsed' id='sfm_MoveIn_parsed' tabindex='-1' style='display:none'>
+                  <div id='MoveIn_image_container' class='sfm_datepicker_img_container'>
+                     <img id='MoveIn_image' class='sfm_datepicker_icon' src='images/date-picker.gif' width='20' height='20' alt='Click here to open the date picker'>
+                  </div>
+               </div>
+               <div class='sfm_element_container sfm_date_container' id='DatePicker1_container'>
+                  <input type='text' name='DatePicker1' id='DatePicker1' class='sfm_datepicker_input' value='%DatePicker1%'>
+                  <input type='text' name='sfm_DatePicker1_parsed' id='sfm_DatePicker1_parsed' tabindex='-1' style='display:none'>
+                  <div id='DatePicker1_image_container' class='sfm_datepicker_img_container'>
+                     <img id='DatePicker1_image' class='sfm_datepicker_icon' src='images/date-picker.gif' width='20' height='20' alt='Click here to open the date picker'>
+                  </div>
+               </div>
+               <div id='box_element3'></div>
+               <div id='box_element4'></div>
+               <div id='label7_container' class='sfm_form_label'>
+                  <label id='label7' for='Phone1'>Phone Number (1)</label>
+               </div>
+               <div id='Phone1_container' class='sfm_element_container'>
+                  <input type='tel' name='Phone1' id='Phone1' class='sfm_textbox_common sfm_textbox' size='20' placeholder='(###)-###-####' value='%Phone1%'>
+               </div>
+               <div id='FirstName1_container' class='sfm_element_container'>
+                  <input type='text' name='FirstName1' id='FirstName1' class='sfm_textbox_common sfm_textbox' size='20' value='%FirstName1%'>
+               </div>
+               <div id='Middle1_container' class='sfm_element_container'>
+                  <input type='text' name='Middle1' id='Middle1' class='sfm_textbox_common sfm_textbox' size='20' value='%Middle1%'>
+               </div>
+               <div id='label20_container' class='sfm_form_label'>
+                  <label id='label20' for='LastName1'>Last Name, First Name, Middle Initial</label>
+               </div>
+               <div id='label22_container' class='sfm_form_label'>
+                  <label id='label22' for='LastName1'>Homeowner (1)</label>
+               </div>
+               <div id='LastName1_container' class='sfm_element_container'>
+                  <input type='text' name='LastName1' id='LastName1' class='sfm_textbox_common sfm_textbox' size='20' value='%LastName1%'>
+               </div>
+               <div id='box_element5'></div>
+               <div id='label21_container' class='sfm_form_label'>
+                  <label id='label21' for='Last2'>Last Name, First Name, Middle Initial</label>
+               </div>
+               <div id='label23_container' class='sfm_form_label'>
+                  <label id='label23' for='Last2'>Homeowner (2)</label>
+               </div>
+               <div id='Last2_container' class='sfm_element_container'>
+                  <input type='text' name='Last2' id='Last2' class='sfm_textbox_common sfm_textbox' size='20' value='%Last2%'>
+               </div>
+               <div id='First2_container' class='sfm_element_container'>
+                  <input type='text' name='First2' id='First2' class='sfm_textbox_common sfm_textbox' size='20' value='%First2%'>
+               </div>
+               <div id='Middle2_container' class='sfm_element_container'>
+                  <input type='text' name='Middle2' id='Middle2' class='sfm_textbox_common sfm_textbox' size='20' value='%Middle2%'>
+               </div>
+               <div id='label8_container' class='sfm_form_label'>
+                  <label id='label8' for='Phone2'>Phone Number (2)</label>
+               </div>
+               <div id='Phone2_container' class='sfm_element_container'>
+                  <input type='tel' name='Phone2' id='Phone2' class='sfm_textbox_common sfm_textbox' size='20' placeholder='(###)-###-####' value='%Phone2%'>
+               </div>
+               <div id='box_element6'></div>
+               <div id='label6_container' class='sfm_form_label'>
+                  <label id='label6'>Street Address</label>
+               </div>
+               <div id='Address_container' class='sfm_element_container'>
+                  <input type='text' name='Address' id='Address' class='sfm_textbox_common sfm_textbox' size='20' value='%Address%'>
+               </div>
+               <div id='box_element7'></div>
+               <div id='label9_container' class='sfm_form_label'>
+                  <label id='label9' for='Email1'>Email (1)</label>
+               </div>
+               <div id='Email1_container' class='sfm_element_container'>
+                  <input type='email' name='Email1' id='Email1' class='sfm_textbox_common sfm_textbox' size='20' value='%Email1%'>
+               </div>
+               <div id='label10_container' class='sfm_form_label'>
+                  <label id='label10' for='Email2'>Email (2)</label>
+               </div>
+               <div id='Email2_container' class='sfm_element_container'>
+                  <input type='email' name='Email2' id='Email2' class='sfm_textbox_common sfm_textbox' size='20' value='%Email2%'>
+               </div>
+               <div id='box_element8'></div>
+               <div id='box_element9'></div>
+               <div id='box_element10'></div>
+               <div id='label11_container'>
+                  <div id='label11'>**Much of our communication is done through email; therefore, we ask that at least one email be provided per household.</div>
+               </div>
+               <div id='label12_container' class='sfm_form_label'>
+                  <label id='label12' for='AdultsInHouse'># of Adults In Household</label>
+               </div>
+               <div id='AdultsInHouse_container' class='sfm_element_container'>
+                  <input type='text' pattern='[0-9]*' inputmode='numeric' name='AdultsInHouse' id='AdultsInHouse' value='%AdultsInHouse%'>
+                  <input type='text' name='sfm_AdultsInHouse_parsed' id='sfm_AdultsInHouse_parsed' tabindex='-1' style='display:none'>
+               </div>
+               <div id='label13_container' class='sfm_form_label'>
+                  <label id='label13' for='ChildrenInHouse'># of Children In Household</label>
+               </div>
+               <div id='ChildrenInHouse_container' class='sfm_element_container'>
+                  <input type='text' pattern='[0-9]*' inputmode='numeric' name='ChildrenInHouse' id='ChildrenInHouse' value='%ChildrenInHouse%'>
+                  <input type='text' name='sfm_ChildrenInHouse_parsed' id='sfm_ChildrenInHouse_parsed' tabindex='-1' style='display:none'>
+               </div>
+               <div id='box_element11'></div>
+               <div id='box_element12'></div>
+               <div id='label14_container' class='sfm_form_label'>
+                  <label id='label14' for='Pets'>Pets in Household</label>
+               </div>
+               <div id='Pets_container' class='sfm_element_container'><textarea name='Pets' id='Pets' class='sfm_textbox_common sfm_textarea'>%Pets%</textarea></div>
+               <div id='label15_container' class='sfm_form_label'>
+                  <label id='label15' for='ChildrenNames'>Names of Children/Other Adults in Household</label>
+               </div>
+               <div id='ChildrenNames_container' class='sfm_element_container'><textarea name='ChildrenNames' id='ChildrenNames' class='sfm_textbox_common sfm_textarea'>%ChildrenNames%</textarea></div>
+               <div id='box_element13'></div>
+               <div id='box_element14'></div>
+               <div id='label16_container'>
+                  <div id='label16'>We keep our Homeowner's Association dues low because we manage the neighborhood through resident volunteers.</div>
+               </div>
+               <div id='label17_container'>
+                  <div id='label17'>During the pool season, we need volunteers ot help close the pool each evening.</div>
+               </div>
+               <div id='vert_line'></div>
+               <div class='element_label sfm_element_container' id='Pool_volunteer_0_container'><input type='checkbox' name='Pool_volunteer[]' id='Pool_volunteer_item_0' value='Sunday Through Thursday - 9PM' %deb1edf3fdb11c4bcbdb5335e8919728%><label for='Pool_volunteer_item_0' class='element_label' id='Pool_volunteer_item_0_label'>Sunday Through Thursday - 9PM</label></div>
+               <div class='element_label sfm_element_container' id='Pool_volunteer_1_container'><input type='checkbox' name='Pool_volunteer[]' id='Pool_volunteer_item_1' value='Friday and Saturday - 10PM' tabindex='1' %1e9e63478f616f2b41f1b65327d5e140%><label for='Pool_volunteer_item_1' class='element_label' id='Pool_volunteer_item_1_label'>Friday and Saturday - 10PM</label></div>
+               <div id='box_element15'></div>
+               <div id='label18_container'>
+                  <div id='label18'>Additional Neighborhood Volunteer Opportunities</div>
+               </div>
+               <div class='element_label sfm_element_container' id='ArchitecturalControlCommittee_container'><input type='checkbox' name='ArchitecturalControlCommittee' id='ArchitecturalControlCommittee' value='ArchitecturalControlCommittee' %2f20e5c9a879f253e0877c19b430ad49%><label for='ArchitecturalControlCommittee' class='element_label' id='ArchitecturalControlCommittee_label'>Architectural Control Committee</label></div>
+               <div class='element_label sfm_element_container' id='AuditCommittee_container'><input type='checkbox' name='AuditCommittee' id='AuditCommittee' value='AuditCommittee' %258d3e2b809def79f8a2ad1ed7c95211%><label for='AuditCommittee' class='element_label' id='AuditCommittee_label'>Audit Committee</label></div>
+               <div id='box_element16'></div>
+               <div class='element_label sfm_element_container' id='NominationCommittee_container'><input type='checkbox' name='NominationCommittee' id='NominationCommittee' value='NominationCommittee' %8eefcc4e306976f8188d7365b7eb608f%><label for='NominationCommittee' class='element_label' id='NominationCommittee_label'>Nomination  Committee</label></div>
+               <div class='element_label sfm_element_container' id='PoolCommittee_container'><input type='checkbox' name='PoolCommittee' id='PoolCommittee' value='PoolCommittee' %486bf85cd64f46e02d22feb8a590a7eb%><label for='PoolCommittee' class='element_label' id='PoolCommittee_label'>Pool Committee</label></div>
+               <div id='box_element17'></div>
+               <div class='element_label sfm_element_container' id='SnowIceCommittee_container'><input type='checkbox' name='SnowIceCommittee' id='SnowIceCommittee' value='SnowIceCommittee' %0565f199e80c3ca865b5ce33852b2ff3%><label for='SnowIceCommittee' class='element_label' id='SnowIceCommittee_label'>Snow and Ice Committee</label></div>
+               <div class='element_label sfm_element_container' id='SpecialCommittee_container'><input type='checkbox' name='SpecialCommittee' id='SpecialCommittee' value='SpecialCommittee' %0f146e29a6b766ab7cde5af6851ddfc3%><label for='SpecialCommittee' class='element_label' id='SpecialCommittee_label'>Special Committee</label></div>
+               <div id='box_element18'></div>
+               <div class='element_label sfm_element_container' id='WebsiteCommittee_container'><input type='checkbox' name='WebsiteCommittee' id='WebsiteCommittee' value='WebsiteCommittee' %0d70ad9cd5336abfac9a6cd2a1534329%><label for='WebsiteCommittee' class='element_label' id='WebsiteCommittee_label'>Other: Website Committee</label></div>
+               <div class='element_label sfm_element_container' id='NeighborhoodWatch_container'><input type='checkbox' name='NeighborhoodWatch' id='NeighborhoodWatch' value='NeighborhoodWatch' %d395f04a2c4150b0dc1200860b44e7fc%><label for='NeighborhoodWatch' class='element_label' id='NeighborhoodWatch_label'>Neighborhood Watch</label></div>
+               <div id='vert_line1'></div>
+               <div id='box_element19'></div>
+               <div id='box_element1'></div>
+               <div id='label19_container'>
+                  <div id='label19'>Homeowners Association of Cedar Ridge | PO Box 28831 | Kansas City, MO | 64118-8831</div>
+               </div>
+               <div id='Submit_container' class='loading_div sfm_element_container'>
+                  <input type='image' name='Submit' id='Resident_Information_Form_Submit_img' src='images/Resident_Information_Form-Submit-0.png' alt='submit'>
+               </div>
+               <div id='Reset_container' class='sfm_element_container'><a id='Reset' href='javascript:sfm_clear_form(&#039;form#Resident_Information_Form&#039;);'><img id='Resident_Information_Form_Reset_img' src='images/Resident_Information_Form-Reset-0.png' alt='reset'></a></div>
+            </div>
+         </div>
+      </form>
+      <script type='text/javascript'>
+$(function()
+{
+   new sfm_calendar({input_id:"MoveIn",image_id:"MoveIn_image",form_id:"Resident_Information_Form",mirror:"sfm_MoveIn_parsed"})
+   new sfm_calendar({input_id:"DatePicker1",image_id:"DatePicker1_image",form_id:"Resident_Information_Form",mirror:"sfm_DatePicker1_parsed"})
+   new sfm_number_field('AdultsInHouse','Resident_Information_Form',{mirror:'sfm_AdultsInHouse_parsed'});
+   new sfm_number_field('ChildrenInHouse','Resident_Information_Form',{mirror:'sfm_ChildrenInHouse_parsed'});
+   sfm_show_loading_on_formsubmit('Resident_Information_Form','Resident_Information_Form_Submit_img');
+});
+      </script>
+      <script type='text/javascript'>
+var Resident_Information_FormValidator = new Validator("Resident_Information_Form");
+Resident_Information_FormValidator.addValidation("MoveIn",{required:true,message:"Please fill in MoveIn"} );
+Resident_Information_FormValidator.addValidation("DatePicker1",{required:true,message:"Please fill in DatePicker1"} );
+Resident_Information_FormValidator.addValidation("Phone1",{required:true,message:"Please fill in Phone1"} );
+Resident_Information_FormValidator.addValidation("FirstName1",{required:true,message:"Please fill in Homeowner1"} );
+Resident_Information_FormValidator.addValidation("Middle1",{required:true,message:"Please fill in Homeowner1"} );
+Resident_Information_FormValidator.addValidation("LastName1",{required:true,message:"Please fill in Homeowner1"} );
+Resident_Information_FormValidator.addValidation("Last2",{required:true,message:"Please fill in Homeowner1"} );
+Resident_Information_FormValidator.addValidation("First2",{required:true,message:"Please fill in Homeowner1"} );
+Resident_Information_FormValidator.addValidation("Middle2",{required:true,message:"Please fill in Homeowner1"} );
+Resident_Information_FormValidator.addValidation("Address",{required:true,message:"Please fill in Address"} );
+Resident_Information_FormValidator.addValidation("Address",{alnum_s:true,message:"The input for Address should be a valid alpha-numeric value"} );
+Resident_Information_FormValidator.addValidation("Email1",{email:true,message:"The input for  should be a valid email value"} );
+Resident_Information_FormValidator.addValidation("Email1",{required:true,message:"Please fill in Email1"} );
+Resident_Information_FormValidator.addValidation("Email2",{email:true,message:"The input for  should be a valid email value",condition:function(){ return sfm_condition_check('AdultsInHouse>1','Resident_Information_Form')}} );
+Resident_Information_FormValidator.addValidation("AdultsInHouse",{numeric:true,message:"The input for  should be a valid numeric value"} );
+Resident_Information_FormValidator.addValidation("AdultsInHouse",{required:true,message:"Please fill in AdultsInHouse"} );
+Resident_Information_FormValidator.addValidation("ChildrenInHouse",{numeric:true,message:"The input for  should be a valid numeric value"} );
+Resident_Information_FormValidator.addValidation("ChildrenInHouse",{required:true,message:"Please fill in ChildrenInHouse"} );
+Resident_Information_FormValidator.addValidation("Pets",{required:true,message:"Please fill in Pets"} );
+      </script>
+   </body>
+</html>

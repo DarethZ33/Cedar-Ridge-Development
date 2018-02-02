@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html >
+   <head >
+      <title ></title>
+      <meta content="text/html; charset=utf-8" http-equiv='Content-Type'>
+      <style type='text/css'>
+body
+{
+	font-family : Arial, Helvetica, sans-serif;
+	font-size : 10pt;
+}
+
+.sfm_table_container
+{
+	margin-top:20px;
+	margin-bottom:10px;
+}
+
+.sfm_table_container td
+{
+    font-size : 10pt;
+	text-align: left;
+	border-bottom:1px solid #DEDEDE;
+	padding:5px;
+}
+
+.sfm_table_container td.FieldName
+{
+	font-weight:bold;
+	vertical-align: top;
+}
+
+.sfm_table_container td.FieldValue 
+{
+	font-family : Arial, Helvetica, sans-serif;
+	font-size : 10pt;
+}
+
+.sfm_table_container td.ExtraInfoName 
+{
+	font-family : Verdana, Helvetica, sans-serif;
+	font-size : 8pt;
+	border-bottom:0px;
+	font-weight:bold;
+}
+
+.sfm_table_container td.ExtraInfoValue 
+{
+	font-family : Verdana, Helvetica, sans-serif;
+	font-size : 8pt;
+	border-bottom:0px;
+}
+
+
+fieldset {
+	display:block; 
+	border-color: #ddddFF;
+        border-width: 1px 0 0 0;
+        border-style: solid none none none;
+	padding:5px; 
+	font-family:verdana, sans-serif; 
+	margin-bottom:0.5em; 
+}
+      </style>
+      <meta name='GENERATOR' content='MSHTML 11.00.10570.1001'>
+   </head>
+   <body style='BACKGROUND-COLOR: transparent'>
+The following data was submitted in 
+the form named Resident_Information_Form by a visitor 
+      <div class='sfm_table_container'>
+         <table cellSpacing='0' cellPadding='5'>
+            <tbody >
+               <tr >
+                  <td class='FieldName'>NewResidentInformation</td>
+                  <td class='FieldValue'>%NewResidentInformation%</td>
+               </tr>
+               <tr >
+                  <td class='FieldName'>EstablishedResidentUpdateInformation</td>
+                  <td class='FieldValue'>%EstablishedResidentUpdateInformation%</td>
+               </tr>
+               <tr >
+                  <td class='FieldName'>MoveIn</td>
+                  <td class='FieldValue'>%MoveIn%</td>
+               </tr>
+               <tr >
+                  <td class='FieldName'>DatePicker1</td>
+                  <td class='FieldValue'>%DatePicker1%</td>
+               </tr>
+               <tr >
+                  <td class='FieldName'>Phone1</td>
+                  <td class='FieldValue'>%Phone1%</td>
+               </tr>
+               <tr >
+                  <td class='FieldName'>FirstName1</td>
+                  <td class='FieldValue'>%FirstName1%</td>
+               </tr>
+               <tr >
+                  <td class='FieldName'>Middle1</td>
+                  <td class='FieldValue'>%Middle1%</td>
+               </tr>
+               <tr >
+                  <td class='FieldName'>LastName1</td>
+                  <td class='FieldValue'>%LastName1%</td>
+               </tr>
+               <tr >
+                  <td class='FieldName'>Last2</td>
+                  <td class='FieldValue'>%Last2%</td>
+               </tr>
+               <tr >
+                  <td class='FieldName'>First2</td>
+                  <td class='FieldValue'>%First2%</td>
+               </tr>
+               <tr >
+                  <td class='FieldName'>Middle2</td>
+                  <td class='FieldValue'>%Middle2%</td>
+               </tr>
+               <tr >
+                  <td class='FieldName'>Phone2</td>
+                  <td class='FieldValue'>%Phone2%</td>
+               </tr>
+               <tr >
+                  <td class='FieldName'>Address</td>
+                  <td class='FieldValue'>%Address%</td>
+               </tr>
+               <tr >
+                  <td class='FieldName'>Email1</td>
+                  <td class='FieldValue'>%Email1%</td>
+               </tr>
+               <tr >
+                  <td class='FieldName'>Email2</td>
+                  <td class='FieldValue'>%Email2%</td>
+               </tr>
+               <tr >
+                  <td class='FieldName'>AdultsInHouse</td>
+                  <td class='FieldValue'>%AdultsInHouse%</td>
+               </tr>
+               <tr >
+                  <td class='FieldName'>ChildrenInHouse</td>
+                  <td class='FieldValue'>%ChildrenInHouse%</td>
+               </tr>
+               <tr >
+                  <td class='FieldName'>Pets</td>
+                  <td class='FieldValue'>%Pets%</td>
+               </tr>
+               <tr >
+                  <td class='FieldName'>ChildrenNames</td>
+                  <td class='FieldValue'>%ChildrenNames%</td>
+               </tr>
+               <tr >
+                  <td class='FieldName'>Pool_volunteer</td>
+                  <td class='FieldValue'>%Pool_volunteer%</td>
+               </tr>
+               <tr >
+                  <td class='FieldName'>ArchitecturalControlCommittee</td>
+                  <td class='FieldValue'>%ArchitecturalControlCommittee%</td>
+               </tr>
+               <tr >
+                  <td class='FieldName'>AuditCommittee</td>
+                  <td class='FieldValue'>%AuditCommittee%</td>
+               </tr>
+               <tr >
+                  <td class='FieldName'>NominationCommittee</td>
+                  <td class='FieldValue'>%NominationCommittee%</td>
+               </tr>
+               <tr >
+                  <td class='FieldName'>PoolCommittee</td>
+                  <td class='FieldValue'>%PoolCommittee%</td>
+               </tr>
+               <tr >
+                  <td class='FieldName'>SnowIceCommittee</td>
+                  <td class='FieldValue'>%SnowIceCommittee%</td>
+               </tr>
+               <tr >
+                  <td class='FieldName'>SpecialCommittee</td>
+                  <td class='FieldValue'>%SpecialCommittee%</td>
+               </tr>
+               <tr >
+                  <td class='FieldName'>WebsiteCommittee</td>
+                  <td class='FieldValue'>%WebsiteCommittee%</td>
+               </tr>
+               <tr >
+                  <td class='FieldName'>NeighborhoodWatch</td>
+                  <td class='FieldValue'>%NeighborhoodWatch%</td>
+               </tr>
+            </tbody>
+         </table>
+         <h4 >More Info:</h4>
+         <table cellSpacing='0' cellPadding='5'>
+            <tbody >
+               <tr >
+                  <td class='FieldName'>FormSubmissionTime</td>
+                  <td class='FieldValue'>%_sfm_form_submision_time_%</td>
+               </tr>
+               <tr >
+                  <td class='FieldName'>VisitorsIP</td>
+                  <td class='FieldValue'>%_sfm_visitor_ip_%</td>
+               </tr>
+               <tr >
+                  <td class='FieldName'>UniqueID</td>
+                  <td class='FieldValue'>%_sfm_unique_id_%</td>
+               </tr>
+            </tbody>
+         </table>
+      </div>
+      <p ></p>
+   </body>
+</html>
