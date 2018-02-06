@@ -32,11 +32,8 @@
     gtag('js', new Date());
     gtag('config', 'UA-112668021-1');
 </script>
-<script src="lib/resource-package2.min.js"></script>
-<link href="lib/bootstrap/css/bootstrap.min.css" rel=stylesheet>
-<link href="lib/font-awesome/css/font-awesome.min.css" rel=stylesheet>
-<link href="lib/animate-css/animate.min.css" rel=stylesheet>
-<link href="lib/css/style.css" rel=stylesheet>
+
+<link href="lib/bootstrap/css/resource-package.css" rel=stylesheet>
 <div id=preloader></div>
 <section id=welcome>
     <div class=welcome-container>
@@ -294,4 +291,5 @@
     </div>
 </footer><a href="#" class=back-to-top><i class="fa fa-chevron-up"></i></a>
 <script src="lib/resource-package.min.js"></script>
+<script src="lib/resource-package2.min.js"></script>
 <script type='text/javascript'>new sfmFormObj('sfm_container_div_Resident_Information_Form','//s707873718.onlinehome.us/HOACedarRidge/forms/Resident_Information_Form.php?sfm_from_iframe=1',850);</script>
